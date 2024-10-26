@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Quote of the Day",
+    "version": "1.0",
+    "description": "Displays a new quote every time you load the background.",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "chrome_url_overrides": {
+    "newtab": "popup.html"
+  },
+    "permissions": ["storage"]
+  }
+  
